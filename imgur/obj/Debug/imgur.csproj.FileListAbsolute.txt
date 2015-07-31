@@ -1,0 +1,153 @@
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\App.xbf
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\imgur.xr.xml
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\imgur.exe
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\imgur.pdb
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\resources.pri
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\AppxManifest.xml
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\imgur.build.appxrecipe
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\App.g.i.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\App.g.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\App.xaml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\App.xbf
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\imgur.exe
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\imgur.pdb
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\priconfig.xml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\priconfig.xml.intermediate
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\layout.resfiles
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\layout.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\resources.resfiles
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\resources.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\pri.resfiles
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\pri.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\qualifiers.txt
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\ProjectArchitectures.txt
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\imgur.csproj.GenerateResource.Cache
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\View\Single.xbf
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Single.g.i.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Single.g.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Single.xaml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Single.xbf
+C:\Users\ozog\Desktop\imgur\imgur\bin\Debug\View\Pictures.xbf
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Pictures.g.i.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Pictures.g.cs
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Pictures.xaml
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\View\Pictures.xbf
+C:\Users\ozog\Desktop\imgur\imgur\obj\Debug\imgur.csprojResolveAssemblyReference.cache
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\App.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\View\Pictures.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\View\Single.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\imgur.xr.xml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\imgur.exe
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\imgur.pdb
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\resources.pri
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\AppxManifest.xml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\imgur.build.appxrecipe
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ozog\Desktop\imgur - Copy\imgur\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\imgur.csprojResolveAssemblyReference.cache
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\App.g.i.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\App.g.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.g.i.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.g.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.g.i.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.g.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\App.xaml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.xaml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.xaml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\App.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.xbf
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\imgur.exe
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\imgur.pdb
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\imgur.csproj.GenerateResource.Cache
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\priconfig.xml
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\priconfig.xml.intermediate
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\layout.resfiles
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\layout.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\resources.resfiles
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\resources.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\pri.resfiles
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\pri.resfiles.intermediate
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\qualifiers.txt
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ozog\Desktop\imgur - Copy\imgur\obj\Debug\ProjectArchitectures.txt
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\App.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\View\BasicPage1.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\View\Pictures.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\View\Single.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\imgur.xr.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\imgur.exe
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\imgur.pdb
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\resources.pri
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\AppxManifest.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\imgur.build.appxrecipe
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Newtonsoft.Json.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Newtonsoft.Json.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\imgur.csprojResolveAssemblyReference.cache
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\App.g.i.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\App.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\BasicPage1.g.i.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\BasicPage1.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.g.i.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.g.i.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\App.xaml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\BasicPage1.xaml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.xaml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.xaml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\App.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\BasicPage1.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Pictures.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Single.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\XamlSaveStateFile.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\imgur.exe
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\imgur.pdb
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\imgur.csproj.GenerateResource.Cache
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\priconfig.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\priconfig.xml.intermediate
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\layout.resfiles
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\layout.resfiles.intermediate
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\resources.resfiles
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\resources.resfiles.intermediate
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\pri.resfiles
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\pri.resfiles.intermediate
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\qualifiers.txt
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\qualifiers.txt.intermediate
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\ProjectArchitectures.txt
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\View\Loginpage.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Loginpage.g.i.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Loginpage.g.cs
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Loginpage.xaml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\View\Loginpage.xbf
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\imgur.exe.config
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\crypto.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.OAuth.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.OAuth2.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\crypto.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.OAuth.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\RestSharp.Portable.OAuth2.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Auth0Client.Phone.dll
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\bin\Debug\Auth0Client.Phone.pri
+C:\Users\olliketola\Desktop\imgur - Copy\imgur\obj\Debug\Auth0Client.Phone.pri.xml

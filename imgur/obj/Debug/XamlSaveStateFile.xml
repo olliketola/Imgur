@@ -1,0 +1,15 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\ozog\desktop\imgur\imgur\obj\debug\intermediatexaml\imgur.exe" HashGuid="9e33e86c-b6e6-a578-4247-6100a2750c5b" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\auth0.windowsphone.1.4.1\lib\wpa81\auth0client.phone.dll" HashGuid="18360dc9-fcc4-090b-cd87-84e91f60cfbe" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\portable.bouncycastle-signed.1.7.0.1\lib\portable-net4+sl5+wp8+win8+wpa81\crypto.dll" HashGuid="551040f7-ea7a-1e3e-a476-443d851015c7" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\fubarcoder.restsharp.portable.2.4.4\lib\portable-net40+sl50+win+wpa81+wp80+monoandroid10+monotouch10+xamarin.ios10\restsharp.portable.dll" HashGuid="f49de5b1-e076-e358-2d97-8fe54fd7fe55" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\fubarcoder.restsharp.portable.oauth.2.4.4\lib\portable-net40+sl50+win+wpa81+wp80+monoandroid10+monotouch10+xamarin.ios10\restsharp.portable.oauth.dll" HashGuid="8923eed3-c938-85cd-133b-d674a4a8355a" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\fubarcoder.restsharp.portable.oauth2.2.4.4\lib\portable-net403+sl50+win+wpa81+wp80+monoandroid10+monotouch10+xamarin.ios10\restsharp.portable.oauth2.dll" HashGuid="97d5dd29-7738-51d7-7e06-7cdc4f077fff" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\microsoft.net.http.2.2.28\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\users\olliketola\desktop\imgur - copy\packages\microsoft.net.http.2.2.28\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Auth0Client.Phone" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Auth0Client.Phone">
+				<NamedResource name="Auth0Client.Phone.xr.xml" uri="ms-resource://Auth0Client.Phone/Files/Auth0Client.Phone/Auth0Client.Phone.xr.xml">
+					<Candidate type="Path">
+						<Value>Auth0Client.Phone\Auth0Client.Phone.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoginPage.xbf" uri="ms-resource://Auth0Client.Phone/Files/Auth0Client.Phone/LoginPage.xbf">
+					<Candidate type="Path">
+						<Value>Auth0Client.Phone\LoginPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
