@@ -23,6 +23,7 @@ using Windows.Storage;
 using System.Net.Http;
 using Windows.Storage.Streams;
 using Windows.UI.Popups;
+using System.Text.RegularExpressions;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -36,6 +37,8 @@ namespace imgur.View
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         SinglePic s = new SinglePic();
+        private const string UrlPattern = @"(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?";
+
 
         private int val = 0;
        
@@ -53,6 +56,7 @@ namespace imgur.View
        {
            await s.GetComments();
            comments.ItemsSource = s.comments;
+
        }
        public async void getAlbum()
        {
@@ -250,5 +254,11 @@ namespace imgur.View
             val = album.SelectedIndex;
         }
 
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
+
 }

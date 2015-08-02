@@ -25,9 +25,9 @@ namespace imgur.ViewModel
     class GetMostHot
     {
 
-        public List<PictureList> lista {get; set;}
-        public List<TopModel> toplista { get; set; }
-        public List<Search> searchlista { get; set; }
+        public ObservableCollection<PictureList> lista {get; set;}
+        public ObservableCollection<TopModel> toplista { get; set; }
+        public ObservableCollection<SearchModel> searchlista { get; set; }
         public ObservableCollection<RandomModel> rlista { get; set; }
         HttpBaseProtocolFilter filter = new HttpBaseProtocolFilter();
 
@@ -55,13 +55,13 @@ namespace imgur.ViewModel
 
                 if(sivu == 1)
                 {
-                    lista = JsonConvert.DeserializeObject<List<PictureList>>(y);
+                    lista = JsonConvert.DeserializeObject<ObservableCollection<PictureList>>(y);
                     FixThumbLinks();
                  }
 
                 if (sivu == 2)
                 {
-                    toplista = JsonConvert.DeserializeObject<List<TopModel>>(y);
+                    toplista = JsonConvert.DeserializeObject<ObservableCollection<TopModel>>(y);
 
                     for (int i = 0; i < toplista.Count; i++)
                     {
@@ -97,7 +97,7 @@ namespace imgur.ViewModel
                 }
                 if (sivu == 4)
                 {
-                    lista = JsonConvert.DeserializeObject<List<PictureList>>(y);
+                    lista = JsonConvert.DeserializeObject<ObservableCollection<PictureList>>(y);
                     for (int i = 0; i < lista.Count; i++)
                     {
 

@@ -56,14 +56,13 @@
                                 <RichTextBlock TextWrapping="wrap"   FontSize="16" Margin="10,5,10,15" FontWeight="Bold">
                                     <Paragraph>
                                         <Run Text="{Binding Path=comment}" />
-
                                     </Paragraph>
                                 </RichTextBlock>
+                                
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <Button Content="Load more" Width="395"/>
             </StackPanel>
         </ScrollViewer>
 

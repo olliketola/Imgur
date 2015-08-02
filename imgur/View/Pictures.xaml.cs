@@ -179,15 +179,15 @@ namespace imgur.View
                     return;
                 get = photosGrid4.SelectedIndex;
                 List<string> lista = new List<string>();
-                lista.Add(data.lista.ElementAt(get).link);
-                lista.Add(data.lista.ElementAt(get).mp4);
-                lista.Add(data.lista.ElementAt(get).title);
-                lista.Add(data.lista.ElementAt(get).thumb);
-                lista.Add(data.lista.ElementAt(get).id);
-                lista.Add(data.lista.ElementAt(get).is_album);
-                lista.Add(data.lista.ElementAt(get).cover);
-                lista.Add(data.lista.ElementAt(get).description);
-                lista.Add(data.lista.ElementAt(get).datetime);
+                lista.Add(data.searchlista.ElementAt(get).link);
+                lista.Add(data.searchlista.ElementAt(get).mp4);
+                lista.Add(data.searchlista.ElementAt(get).title);
+                lista.Add(data.searchlista.ElementAt(get).thumb);
+                lista.Add(data.searchlista.ElementAt(get).id);
+                lista.Add(data.searchlista.ElementAt(get).is_album);
+                lista.Add(data.searchlista.ElementAt(get).cover);
+                lista.Add(data.searchlista.ElementAt(get).description);
+                lista.Add(data.searchlista.ElementAt(get).datetime);
 
                 Application.Current.Resources.Add("SinglePicInfo", lista);
                 Frame.Navigate(typeof(Single));
@@ -232,6 +232,19 @@ namespace imgur.View
                 string url = "https://api.imgur.com/3/gallery/search/time?q="+tb1.Text;
                 await data.getdata(url, 4);
                 photosGrid4.ItemsSource = data.lista;
+            }
+        }
+
+        private void myPivot_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (myPivot.SelectedIndex == 2) 
+            {
+                Debug.WriteLine("nyt");
+                cbar.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                cbar.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             }
         }
 

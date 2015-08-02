@@ -13,11 +13,13 @@ namespace imgur.Model
         public string author { get; set; }
         public string datetime { get; set; }
 
+
         public SingleImageComments(string comment,string author, string datetime)
         {
             this.comment = comment;
             this.author = author;
             this.datetime = datetime;
+
         }
     }
 }

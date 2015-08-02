@@ -6,8 +6,8 @@
     
     <Application.Resources>
 
-    
 
+        <ProgressRing x:Name="ring" Foreground="BlueViolet" Width="100" Height="100" />
 
 
     </Application.Resources>

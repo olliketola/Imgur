@@ -31,7 +31,7 @@ namespace imgur.View
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        public string get { get; set; }
+
 
 
         public LoginPage()
@@ -41,21 +41,10 @@ namespace imgur.View
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
-            Set();
+        
         }
 
-        public async Task test()
-        {
-
-            WebAuthenticationResult result = await WebAuthenticationBroker.AuthenticateSilentlyAsync(new Uri("https://api.imgur.com/oauth2/authorize?client_id=9adfc8a3fd65c2b&response_type=code&state=APPLICATION_STATE"), WebAuthenticationOptions.None);
-            get = result.ResponseErrorDetail.ToString();
-        }
-
-        public async void Set() 
-        {
-            await test();
-            testi.Text = get;
-        } 
+      
      
       
         /// <summary>

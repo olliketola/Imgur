@@ -91,6 +91,7 @@
     <Compile Include="Model\AlbumModel.cs" />
     <Compile Include="Model\PictureList.cs" />
     <Compile Include="Model\RandomMode.cs" />
+    <Compile Include="Model\SearchModel.cs" />
     <Compile Include="Model\SingleImageComments.cs" />
     <Compile Include="Model\TopModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

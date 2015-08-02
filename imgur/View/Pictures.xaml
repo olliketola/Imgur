@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
 
-        <Pivot  x:Name="myPivot">
+        <Pivot SelectionChanged="myPivot_SelectionChanged" x:Name="myPivot" Margin="0,0,0,-57">
 
             <PivotItem x:Name="pivot_item1" Header="HOT" Margin="0,23,0,-0.5">
 
@@ -36,8 +36,7 @@
                             <StackPanel>
 
                                 <Image  Stretch="None"  Width="85" Height="85" Source="{Binding Path=thumb}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"></Image>
-
-                                <TextBlock Text="{Binding Path=is_album}"></TextBlock>
+                                <!-- <TextBlock Text="{Binding Path=is_album}"></TextBlock> -->
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
@@ -62,7 +61,7 @@
                         <DataTemplate>
                             <StackPanel>
                                 <Image  Stretch="None"  Width="85" Height="85" Source="{Binding Path=thumb}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"></Image>
-                                <TextBlock Text="{Binding Path=is_album}"></TextBlock>
+                                <!-- <TextBlock Text="{Binding Path=is_album}"></TextBlock> -->
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
@@ -86,7 +85,7 @@
                         <DataTemplate>
                             <StackPanel>
                                 <Image  Stretch="None"  Width="85" Height="85" Source="{Binding Path=thumb}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"></Image>
-                                <TextBlock Text="{Binding Path=is_album}"></TextBlock>
+                               <!-- <TextBlock Text="{Binding Path=is_album}"></TextBlock> -->
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
@@ -97,7 +96,7 @@
             <PivotItem  x:Name="pivot_item4" Header="SEARCH"  Margin="0,0,0,22.5">
                 <Grid>
                     <StackPanel>
-                        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="370"/>
+                        <TextBox PlaceholderText="sup..." x:Name="tb1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370"/>
                         <Button Content="Button" HorizontalAlignment="Right"  VerticalAlignment="Top" Width="370" Margin="0,0,10,0" Click="Button_Click"/>
                     </StackPanel>
 
@@ -114,7 +113,7 @@
                             <DataTemplate>
                                 <StackPanel>
                                     <Image  Stretch="None"  Width="85" Height="85" Source="{Binding Path=thumb}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"></Image>
-                                    <TextBlock Text="{Binding Path=is_album}"></TextBlock>
+                                    <!-- <TextBlock Text="{Binding Path=is_album}"></TextBlock> -->
                                 </StackPanel>
                             </DataTemplate>
                         </GridView.ItemTemplate>
@@ -128,8 +127,8 @@
     </Grid>
 
     <Page.BottomAppBar >
-        <CommandBar x:Name="cbar" Opacity="0.5">
-            <AppBarButton Click="b1_Click" Label="Shuffle"  x:Name="b1" Icon="Refresh" Opacity="0.5"/>
+        <CommandBar Visibility="Collapsed" x:Name="cbar" Opacity="0.5">
+            <AppBarButton  Click="b1_Click" Label="Shuffle"  x:Name="b1" Icon="Refresh" Opacity="0.5"/>
         </CommandBar>
     </Page.BottomAppBar>
 

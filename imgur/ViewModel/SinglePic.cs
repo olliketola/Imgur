@@ -14,6 +14,7 @@ using Windows.UI.Popups;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Net;
+using System.Text.RegularExpressions;
 
 namespace imgur.ViewModel
 {
@@ -173,12 +174,15 @@ namespace imgur.ViewModel
                 //Haetaan 20 parhaimmaksi valittua kommenttia
                 for (int i = 0; i < json["data"].Count(); i++)
                 {
-
+                  
+             
                     var asd = new SingleImageComments(
                         (string)json["data"][i]["comment"],
                         (string)json["data"][i]["author"] + " :",
                        UnixToDateTime((string)json["data"][i]["datetime"])
+  
                         );
+
 
                     comments.Add(asd);
 
@@ -205,6 +209,22 @@ namespace imgur.ViewModel
            return date.ToString();
 
         }
+
+        public List<string> MakeLink(string txt)
+        {
+            List<string> lista = new List<string>();
+            Regex regx = new Regex(@"((http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?)");
+            MatchCollection matches = regx.Matches(txt);
+          
+
+            foreach (Match match in matches)
+            {
+                lista.Add(match.Value);
+            }
+
+            return lista;
+        }
+
      }
  }
 
