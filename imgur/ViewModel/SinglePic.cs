@@ -163,30 +163,13 @@ namespace imgur.ViewModel
               System.Diagnostics.Debug.WriteLine(data);
              
               JObject json = JObject.Parse(data);
+              JArray a = (JArray)json["data"];
               comments = new ObservableCollection<SingleImageComments>();
 
-             int count = 19;
-                if (json["data"].Count() < count)
-                {
-                    count = json["data"].Count();
-               }
-            
+        
                 //Haetaan 20 parhaimmaksi valittua kommenttia
-                for (int i = 0; i < json["data"].Count(); i++)
-                {
-                  
-             
-                    var asd = new SingleImageComments(
-                        (string)json["data"][i]["comment"],
-                        (string)json["data"][i]["author"] + " :",
-                       UnixToDateTime((string)json["data"][i]["datetime"])
-  
-                        );
-
-
-                    comments.Add(asd);
-
-                }
+              GetSubcomments(a);
+              
             }
             catch(Exception e)
             {
@@ -223,6 +206,29 @@ namespace imgur.ViewModel
             }
 
             return lista;
+        }
+
+        public void GetSubcomments(JArray x)
+        {
+         
+            for (int i = 0; i < x.Count(); i++)
+            {
+
+                var asd = new SingleImageComments(
+                    (string)x[i]["comment"],
+                    (string)x[i]["author"] + " :",
+                   UnixToDateTime((string)x[i]["datetime"])
+
+                    );
+
+                comments.Add(asd);
+
+                if (x[i]["children"].Count() > 0)
+                {
+                   JArray y = (JArray)x[i]["children"];
+                   GetSubcomments(y);
+                }
+            }
         }
 
      }
