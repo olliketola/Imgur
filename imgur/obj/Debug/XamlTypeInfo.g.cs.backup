@@ -148,31 +148,27 @@ namespace imgur.imgur_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
-            _typeNameTable[0] = "imgur.View.BasicPage1";
+            _typeNameTable = new string[9];
+            _typeNameTable[0] = "imgur.View.Pictures";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "imgur.Common.NavigationHelper";
-            _typeNameTable[4] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[5] = "imgur.Common.ObservableDictionary";
-            _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "imgur.View.LoginPage";
-            _typeNameTable[9] = "imgur.View.Pictures";
-            _typeNameTable[10] = "imgur.View.Single";
+            _typeNameTable[3] = "imgur.View.Single";
+            _typeNameTable[4] = "imgur.Common.NavigationHelper";
+            _typeNameTable[5] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[6] = "imgur.Common.ObservableDictionary";
+            _typeNameTable[7] = "Object";
+            _typeNameTable[8] = "String";
 
-            _typeTable = new global::System.Type[11];
-            _typeTable[0] = typeof(global::imgur.View.BasicPage1);
+            _typeTable = new global::System.Type[9];
+            _typeTable[0] = typeof(global::imgur.View.Pictures);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::imgur.Common.NavigationHelper);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[5] = typeof(global::imgur.Common.ObservableDictionary);
-            _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::imgur.View.LoginPage);
-            _typeTable[9] = typeof(global::imgur.View.Pictures);
-            _typeTable[10] = typeof(global::imgur.View.Single);
+            _typeTable[3] = typeof(global::imgur.View.Single);
+            _typeTable[4] = typeof(global::imgur.Common.NavigationHelper);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[6] = typeof(global::imgur.Common.ObservableDictionary);
+            _typeTable[7] = typeof(global::System.Object);
+            _typeTable[8] = typeof(global::System.String);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -207,12 +203,10 @@ namespace imgur.imgur_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BasicPage1() { return new global::imgur.View.BasicPage1(); }
-        private object Activate_5_ObservableDictionary() { return new global::imgur.Common.ObservableDictionary(); }
-        private object Activate_8_LoginPage() { return new global::imgur.View.LoginPage(); }
-        private object Activate_9_Pictures() { return new global::imgur.View.Pictures(); }
-        private object Activate_10_Single() { return new global::imgur.View.Single(); }
-        private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
+        private object Activate_0_Pictures() { return new global::imgur.View.Pictures(); }
+        private object Activate_3_Single() { return new global::imgur.View.Single(); }
+        private object Activate_6_ObservableDictionary() { return new global::imgur.Common.ObservableDictionary(); }
+        private void MapAdd_6_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -230,11 +224,9 @@ namespace imgur.imgur_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  imgur.View.BasicPage1
+            case 0:   //  imgur.View.Pictures
                 userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_BasicPage1;
-                userType.AddMemberName("NavigationHelper");
-                userType.AddMemberName("DefaultViewModel");
+                userType.Activator = Activate_0_Pictures;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -247,56 +239,40 @@ namespace imgur.imgur_XamlTypeInfo
                 xamlType = new global::imgur.imgur_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  imgur.Common.NavigationHelper
+            case 3:   //  imgur.View.Single
+                userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_Single;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  imgur.Common.NavigationHelper
                 userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Windows.UI.Xaml.DependencyObject
+            case 5:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::imgur.imgur_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  imgur.Common.ObservableDictionary
+            case 6:   //  imgur.Common.ObservableDictionary
                 userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_6_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Object
+            case 7:   //  Object
                 xamlType = new global::imgur.imgur_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  String
+            case 8:   //  String
                 xamlType = new global::imgur.imgur_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  imgur.View.LoginPage
-                userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_LoginPage;
-                userType.AddMemberName("NavigationHelper");
-                userType.AddMemberName("DefaultViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  imgur.View.Pictures
-                userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Pictures;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  imgur.View.Single
-                userType = new global::imgur.imgur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_Single;
-                userType.AddMemberName("NavigationHelper");
-                userType.AddMemberName("DefaultViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -356,32 +332,12 @@ namespace imgur.imgur_XamlTypeInfo
             return foundXamlType;
         }
 
-        private object get_0_BasicPage1_NavigationHelper(object instance)
-        {
-            var that = (global::imgur.View.BasicPage1)instance;
-            return that.NavigationHelper;
-        }
-        private object get_1_BasicPage1_DefaultViewModel(object instance)
-        {
-            var that = (global::imgur.View.BasicPage1)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_2_LoginPage_NavigationHelper(object instance)
-        {
-            var that = (global::imgur.View.LoginPage)instance;
-            return that.NavigationHelper;
-        }
-        private object get_3_LoginPage_DefaultViewModel(object instance)
-        {
-            var that = (global::imgur.View.LoginPage)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_4_Single_NavigationHelper(object instance)
+        private object get_0_Single_NavigationHelper(object instance)
         {
             var that = (global::imgur.View.Single)instance;
             return that.NavigationHelper;
         }
-        private object get_5_Single_DefaultViewModel(object instance)
+        private object get_1_Single_DefaultViewModel(object instance)
         {
             var that = (global::imgur.View.Single)instance;
             return that.DefaultViewModel;
@@ -394,40 +350,16 @@ namespace imgur.imgur_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "imgur.View.BasicPage1.NavigationHelper":
-                userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.BasicPage1");
-                xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "NavigationHelper", "imgur.Common.NavigationHelper");
-                xamlMember.Getter = get_0_BasicPage1_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "imgur.View.BasicPage1.DefaultViewModel":
-                userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.BasicPage1");
-                xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "imgur.Common.ObservableDictionary");
-                xamlMember.Getter = get_1_BasicPage1_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "imgur.View.LoginPage.NavigationHelper":
-                userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.LoginPage");
-                xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "NavigationHelper", "imgur.Common.NavigationHelper");
-                xamlMember.Getter = get_2_LoginPage_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "imgur.View.LoginPage.DefaultViewModel":
-                userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.LoginPage");
-                xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "imgur.Common.ObservableDictionary");
-                xamlMember.Getter = get_3_LoginPage_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
             case "imgur.View.Single.NavigationHelper":
                 userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.Single");
                 xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "NavigationHelper", "imgur.Common.NavigationHelper");
-                xamlMember.Getter = get_4_Single_NavigationHelper;
+                xamlMember.Getter = get_0_Single_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "imgur.View.Single.DefaultViewModel":
                 userType = (global::imgur.imgur_XamlTypeInfo.XamlUserType)GetXamlTypeByName("imgur.View.Single");
                 xamlMember = new global::imgur.imgur_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "imgur.Common.ObservableDictionary");
-                xamlMember.Getter = get_5_Single_DefaultViewModel;
+                xamlMember.Getter = get_1_Single_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

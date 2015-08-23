@@ -29,9 +29,6 @@ namespace imgur.View
         private int get = 0;
        
         GetMostHot data = new GetMostHot();
-        Search search = new Search();
-      
-     
 
         public Pictures()
         {
@@ -96,7 +93,7 @@ namespace imgur.View
 
         private void myPivot_Loaded(object sender, RoutedEventArgs e)
         {
-          
+     
 
         }
 
@@ -246,6 +243,12 @@ namespace imgur.View
             {
                 cbar.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             }
+        }
+
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            await data.getdata("https://api.imgur.com/3/gallery/hot/viral/1.json",1);
+            photosGrid.ItemsSource = data.lista;
         }
 
      

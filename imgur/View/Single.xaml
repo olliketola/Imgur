@@ -45,10 +45,10 @@
 
 
                 <!--Tässä näkyy kuvan/albumin kommentit-->
-                <ListView  x:Name="comments">
+                <ListView  x:Name="comments" SelectionChanged="comments_SelectionChanged">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <StackPanel Background="#FF474747"  Margin="10">
+                            <StackPanel x:Name="stp1testi" Background="#FF474747"  Margin="10">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock TextWrapping="wrap" Text="{Binding Path=author}" FontSize="16" Margin="10,5"></TextBlock>
                                     <TextBlock TextWrapping="wrap" Text="{Binding Path=datetime}" FontSize="16" Margin="10,5" ></TextBlock>
@@ -58,7 +58,6 @@
                                         <Run Text="{Binding Path=comment}" />
                                     </Paragraph>
                                 </RichTextBlock>
-                                
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
@@ -67,10 +66,5 @@
         </ScrollViewer>
 
     </Grid>
-    <Page.BottomAppBar>
-        <CommandBar>
-            <AppBarButton Click="AppBarButton_Click" Icon="Save" Label="test">
-            </AppBarButton>
-        </CommandBar>
-    </Page.BottomAppBar>
+    
 </Page>

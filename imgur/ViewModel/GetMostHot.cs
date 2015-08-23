@@ -31,6 +31,8 @@ namespace imgur.ViewModel
         public ObservableCollection<RandomModel> rlista { get; set; }
         HttpBaseProtocolFilter filter = new HttpBaseProtocolFilter();
 
+        
+  
         public async Task getdata(string url, int sivu)
         {
 
@@ -55,8 +57,10 @@ namespace imgur.ViewModel
 
                 if(sivu == 1)
                 {
-                    lista = JsonConvert.DeserializeObject<ObservableCollection<PictureList>>(y);
-                    FixThumbLinks();
+
+                        lista = JsonConvert.DeserializeObject<ObservableCollection<PictureList>>(y);
+                        FixThumbLinks();
+                  
                  }
 
                 if (sivu == 2)
@@ -142,6 +146,7 @@ namespace imgur.ViewModel
         }
 
 
+    
        
     }//class
 }

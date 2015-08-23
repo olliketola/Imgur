@@ -22,7 +22,7 @@
 
             <PivotItem x:Name="pivot_item1" Header="HOT" Margin="0,23,0,-0.5">
 
-                <GridView   ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Visible"  SelectionChanged="photosGrid_SelectionChanged" x:Name="photosGrid"   Background="Black" Width="390" Margin="0,0,0,-56">
+                <GridView ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Visible"  SelectionChanged="photosGrid_SelectionChanged" x:Name="photosGrid"   Background="Black" Width="390" Margin="0,0,0,-56">
 
                     <GridView.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -40,8 +40,9 @@
                             </StackPanel>
                         </DataTemplate>
                     </GridView.ItemTemplate>
+                  
                 </GridView>
-
+           
 
             </PivotItem>
 

@@ -57,6 +57,8 @@ namespace imgur.View
            await s.GetComments();
            comments.ItemsSource = s.comments;
 
+        
+
        }
        public async void getAlbum()
        {
@@ -140,6 +142,9 @@ namespace imgur.View
 
         private void LayoutRoot_Loaded(object sender, RoutedEventArgs e)
         {
+
+          
+             
             if (Boolean.Parse(s.is_album))
             {
                getAlbum();
@@ -213,9 +218,9 @@ namespace imgur.View
                 using (var outputStream = stream.GetOutputStreamAt(0))
                 {
                     DataWriter writer = new DataWriter(outputStream);
-                    writer.WriteBytes(responseBytes);
-                    writer.StoreAsync();
-                    outputStream.FlushAsync();
+                   writer.WriteBytes(responseBytes);
+                   await writer.StoreAsync();
+                   await outputStream.FlushAsync();
                 }
                 Msg("Tallenus onnistui");
             }
@@ -258,6 +263,15 @@ namespace imgur.View
         {
 
         }
+
+        private void comments_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+   
+
+      
 
     }
 

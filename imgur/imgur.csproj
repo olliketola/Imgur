@@ -96,14 +96,7 @@
     <Compile Include="Model\TopModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\GetMostHot.cs" />
-    <Compile Include="ViewModel\Search.cs" />
     <Compile Include="ViewModel\SinglePic.cs" />
-    <Compile Include="View\BasicPage1.xaml.cs">
-      <DependentUpon>BasicPage1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\LoginPage.xaml.cs">
-      <DependentUpon>LoginPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\Pictures.xaml.cs">
       <DependentUpon>Pictures.xaml</DependentUpon>
     </Compile>
@@ -132,14 +125,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="View\BasicPage1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\LoginPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\Pictures.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

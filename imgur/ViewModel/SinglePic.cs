@@ -37,8 +37,6 @@ namespace imgur.ViewModel
 
         private string url = "https://api.imgur.com/3/gallery/album/";
         HttpBaseProtocolFilter filter = new HttpBaseProtocolFilter();
-         
-    
 
         //nämä ajetaan aina kun luodaan uusi ilmentymä tästä luokasta!
         public SinglePic()
@@ -164,10 +162,8 @@ namespace imgur.ViewModel
              
               JObject json = JObject.Parse(data);
               JArray a = (JArray)json["data"];
+         
               comments = new ObservableCollection<SingleImageComments>();
-
-        
-                //Haetaan 20 parhaimmaksi valittua kommenttia
               GetSubcomments(a);
               
             }
@@ -215,19 +211,23 @@ namespace imgur.ViewModel
             {
 
                 var asd = new SingleImageComments(
+                    (string)x[i]["id"],
                     (string)x[i]["comment"],
                     (string)x[i]["author"] + " :",
-                   UnixToDateTime((string)x[i]["datetime"])
+                   UnixToDateTime((string)x[i]["datetime"]),false
 
                     );
 
-                comments.Add(asd);
+              comments.Add(asd);
 
-                if (x[i]["children"].Count() > 0)
+              if (x[i]["children"].Count() > 0)
                 {
-                   JArray y = (JArray)x[i]["children"];
-                   GetSubcomments(y);
-                }
+
+                    JArray y = (JArray)x[i]["children"];
+                    GetSubcomments(y);
+               }
+             
+
             }
         }
 

@@ -98,7 +98,7 @@ namespace imgur
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(BasicPage1), e.Arguments))
+                if (!rootFrame.Navigate(typeof(Pictures), e.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }
