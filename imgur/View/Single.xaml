@@ -37,7 +37,7 @@
                                 </FlyoutBase.AttachedFlyout>
                                 <MediaElement IsLooping="true" Source="{Binding mp4}"></MediaElement>
                                 <Image IsTapEnabled="True" Stretch="Uniform" x:Name="kuva" Source="{Binding link}" Margin="0,0,0,0" ></Image>
-                                <TextBlock TextWrapping="Wrap" Text="{Binding description}" FontSize="16" Margin="0,10"></TextBlock>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding description}" FontSize="16" Margin="5,10"></TextBlock>
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>
