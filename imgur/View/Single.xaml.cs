@@ -34,6 +34,7 @@ namespace imgur.View
     /// </summary>
     public sealed partial class Single : Page
     {
+      
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
         SinglePic s = new SinglePic();
@@ -56,8 +57,6 @@ namespace imgur.View
        {
            await s.GetComments();
            comments.ItemsSource = s.comments;
-
-        
 
        }
        public async void getAlbum()
@@ -259,20 +258,12 @@ namespace imgur.View
             val = album.SelectedIndex;
         }
 
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void comments_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+        
         }
 
-   
-
-      
-
+       
     }
 
 }

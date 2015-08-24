@@ -214,18 +214,18 @@ namespace imgur.ViewModel
                     (string)x[i]["id"],
                     (string)x[i]["comment"],
                     (string)x[i]["author"] + " :",
-                   UnixToDateTime((string)x[i]["datetime"]),false
-
-                    );
+                    UnixToDateTime((string)x[i]["datetime"]),(JArray)x[i]["children"]
+                     );
 
               comments.Add(asd);
-
+/*
               if (x[i]["children"].Count() > 0)
                 {
 
                     JArray y = (JArray)x[i]["children"];
                     GetSubcomments(y);
                }
+ */
              
 
             }

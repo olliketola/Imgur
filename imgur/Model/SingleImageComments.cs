@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,15 +13,17 @@ namespace imgur.Model
         public string comment { get; set; }
         public string author { get; set; }
         public string datetime { get; set; }
-        public Boolean test { get; set; }
+        public JArray arr { get; set; }
+        
 
-        public SingleImageComments(string id, string comment,string author, string datetime, Boolean test)
+
+        public SingleImageComments(string id, string comment,string author, string datetime,JArray arr)
         {
             this.id = id;
             this.comment = comment;
             this.author = author;
             this.datetime = datetime;
-            this.test = test;
+            this.arr = arr;
 
         }
     }
